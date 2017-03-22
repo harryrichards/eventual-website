@@ -44,7 +44,7 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 	color: #2b48ff;
-	font-size: 2em;
+	font-size: 2.8em;
 	border-radius: 35px;
 }
 
@@ -53,6 +53,16 @@ h3 {
 	font-weight: 900;
 	color: #2b48ff; 
 	font-size: 2em;
+}
+
+h4 {
+	font-family: 'Playfair Display', serif;
+/*	font-family: 'Roboto', sans-serif;*/
+	font-weight: 900;
+	color: #2b48ff; 
+	font-size: 4em;
+	margin: 0;
+	padding: 20px 0px 20px 0px;
 }
 
 span {
@@ -147,11 +157,11 @@ header li {
 }
 
 .phone-icon {
-	width: 58%;
+	width: 53%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20px 0px 20px 0px;
+	padding-top: 20px;
 }
 
 .benefits {
