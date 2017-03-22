@@ -161,7 +161,7 @@ header li {
 }
 
 .benefit ul {
-	padding: 0;
+	padding: 0px;
 	margin: 0;
 }
 
@@ -170,11 +170,9 @@ header li {
 	float: left;
 	width: 33.3333333%;
 	padding: 20px 20px;
+/*	border: 2px solid #2b48ff;*/
 }
 
-.benefit-block:last-child {
-	border-right: none;
-}
 
 .benefit-block h2 {
 	font-size: 1.2rem;
@@ -186,7 +184,7 @@ header li {
 }
 
 .benefit-icon {
-	width: 50%;
+	width: 35%;
 }
 
 button {
