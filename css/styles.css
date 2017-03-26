@@ -187,6 +187,15 @@ header li {
 	margin: 0 auto;
 }
 
+.phone-video {
+	position: absolute;
+	width: 39vh;
+	margin: 0 auto;
+	z-index: 10;
+	right: 13%;
+	top: 10%;
+}
+
 .phone-box {
 	vertical-align: middle;
 	margin: 0 auto;
