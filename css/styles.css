@@ -336,6 +336,7 @@ input {
 	border: 2px dashed white;
 	color: white;
 	text-align: center;
+	width: 300px;
 }
 
 input:focus {
@@ -347,7 +348,7 @@ input:focus {
 	background-color: #2b48ff;
 	border-radius: 18px;
 	display: inline-block;
-	padding: 25px 100px 25px 100px;
+	padding: 25px 150px 25px 150px;
 }
 
 .form-style button {
