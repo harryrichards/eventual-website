@@ -134,20 +134,35 @@ header li {
 }
 
 .screenshots {
-	height: 100vh;
 	background-color: white;
 	padding: 40px;
 }
 
 .screenshots ul {
+	position: relative;
 	padding: 0;
 	margin: 0;
 }
 
+/*.clearfix ul {
+	position: relative;
+}*/
+
 .screenshot-block {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 	list-style: none;
 	display: block;
 	float: left;
+	width: 50%;
+	padding: 0 1em;
+}
+
+.screenshot-block-b {
+	list-style: none;
+	display: block;
+	float: right;
 	width: 50%;
 	padding: 0 1em;
 }
@@ -162,29 +177,19 @@ header li {
 }
 
 .phone-icon {
-	height: 100%;
+	height: 90vh;
 	margin: 0 auto;
-/*	display: block;
-	float: center;
-*//*	position: relative;*/
-/*	vertical-align: middle;*/
-/*	margin-left: auto;
-	margin-right: auto;
-	margin: 0 auto;
-	vertical-align: middle;*/
-
 }
 
 .phone-box {
-	height: 85vh;
 	vertical-align: middle;
 	margin: 0 auto;
 }
 
 .phone-text {
-	vertical-align: middle;
-	margin: 0 auto;
-
+/*	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto;*/
 }
 
 .benefits {
@@ -217,7 +222,7 @@ header li {
 }
 
 .benefit-icon {
-	width: 35%;
+	width: 100px;
 }
 
 button {
@@ -336,10 +341,7 @@ input:focus {
 }
 
 .social-icon:hover {
-	background-color: #F9DC00;
-/*	color: #F9DC00;
-/*	fill: #F9DC00;
-}
+opacity: 0.5;
 
 /*.social-footer {
 	width: 50%;
