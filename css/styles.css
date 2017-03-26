@@ -225,6 +225,11 @@ header li {
 	margin: 0;
 }
 
+.numbers-icon {
+	width: 50px;
+	padding-bottom: 10px;
+}
+
 .benefit-block {
 	list-style: none;
 	float: left;
@@ -368,5 +373,5 @@ input:focus {
 
 .social-icon:hover {
 	opacity: 0.5;
-
+}
 
