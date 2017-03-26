@@ -130,8 +130,7 @@ header li {
 }
 
 .screenshots {
-	min-height: 700px;
-/*	height: 100vh;*/
+	height: 100vh;
 	background-color: white;
 	padding: 40px;
 }
@@ -143,6 +142,7 @@ header li {
 
 .screenshot-block {
 	list-style: none;
+	display: block;
 	float: left;
 	width: 50%;
 	padding: 0 1em;
@@ -158,19 +158,29 @@ header li {
 }
 
 .phone-icon {
-	width: 45%;
-	display: block;
-	margin-left: auto;
+	height: 100%;
+/*	display: block;
+	float: center;
+*//*	position: relative;*/
+/*	vertical-align: middle;*/
+/*	margin-left: auto;
 	margin-right: auto;
-/*	margin: 0 auto;*/
-	vertical-align: middle;
-/*	padding-top: 20px;*/
+	margin: 0 auto;
+	vertical-align: middle;*/
+
 }
 
 .phone-box {
+	height: 90vh;
 	vertical-align: middle;
 	margin: 0 auto;
-	position: relative;
+/*	position: relative;*/
+}
+
+.phone-text {
+	vertical-align: middle;
+	margin: 0 auto;
+
 }
 
 .benefits {
