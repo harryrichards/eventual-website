@@ -121,6 +121,7 @@ header li {
 	background: url(../images/background.svg) no-repeat top center #2b48ff;
     background-size: cover;
     height: 100vh;
+    min-height: 520px;
 
 }
 
@@ -140,7 +141,7 @@ header li {
 }
 
 .screenshots {
-	background-color: white;
+	background: url(../images/features-background.svg) no-repeat center white;
 	padding: 40px;
 }
 
@@ -183,22 +184,25 @@ header li {
 }
 
 .phone-icon {
-	height: 90vh;
-	margin: 0 auto;
+	width: 100%;
+}
+
+video {
+	object-fit: contain;
 }
 
 .phone-video {
-	position: absolute;
-	width: 39vh;
-	margin: 0 auto;
 	z-index: 10;
-	right: 13%;
-	top: 10%;
+	position: absolute;
+	top: 77px;
+    left: 22px;
+    width: 270px;
 }
 
 .phone-box {
-	vertical-align: middle;
+	position: relative;
 	margin: 0 auto;
+	width: 310px;
 }
 
 .numbers {
