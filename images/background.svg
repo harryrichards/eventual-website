@@ -1,1 +1,16 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1237.06" height="602.22" viewBox="0 0 1237.06 602.22"><defs><style>.cls-1{fill:none;}.cls-1,.cls-2{stroke:#fff;stroke-miterlimit:10;stroke-width:3px;}.cls-2{fill:#fff;}</style></defs><title>background</title><path class="cls-1" d="M1226.16,105.42s-109.62,67.14-133.27,93c-21.55,23.56-25.14,130.66-56.27,147.88-40,22.11-161.66,11.21-200.86,34C803.53,399,771.18,482.39,735.07,497.07c-45.39,18.45-167.6-4.44-207.43,19.71-35.77,21.69-90.37,105.39-133.24,119C356.72,647.69,205.74,616,164.9,619.92,84,627.73-9.15,705.21-9.15,705.21" transform="translate(10.11 -104.14)"/><circle class="cls-2" cx="170.82" cy="516.88" r="12.58"/><circle class="cls-2" cx="400.15" cy="530.35" r="17.01"/><circle class="cls-2" cx="541.38" cy="412.45" r="14.74"/><circle class="cls-2" cx="751.91" cy="387.95" r="9.76"/><circle class="cls-2" cx="851.24" cy="276.24" r="19.1"/><circle class="cls-2" cx="1056.67" cy="233.91" r="8.24"/><circle class="cls-2" cx="1106.02" cy="91.24" r="14.74"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1237.06" height="602.22" viewBox="0 0 1237.06 602.22">
+	<defs>
+		<style>
+			.cls-1{fill:none;}.cls-1,.cls-2{stroke:#fff;stroke-miterlimit:10;stroke-width:3px;}.cls-2{fill:#fff;}
+		</style>
+	</defs>
+	<title>background</title>
+	<path class="cls-1" d="M1226.16,105.42s-109.62,67.14-133.27,93c-21.55,23.56-25.14,130.66-56.27,147.88-40,22.11-161.66,11.21-200.86,34C803.53,399,771.18,482.39,735.07,497.07c-45.39,18.45-167.6-4.44-207.43,19.71-35.77,21.69-90.37,105.39-133.24,119C356.72,647.69,205.74,616,164.9,619.92,84,627.73-9.15,705.21-9.15,705.21" transform="translate(10.11 -104.14)"/>
+	<circle class="cls-2" cx="170.82" cy="516.88" r="12.58"/>
+	<circle class="cls-2" cx="400.15" cy="530.35" r="17.01"/>
+	<circle class="cls-2" cx="541.38" cy="412.45" r="14.74"/>
+	<circle class="cls-2" cx="751.91" cy="387.95" r="9.76"/>
+	<circle class="cls-2" cx="851.24" cy="276.24" r="19.1"/>
+	<circle class="cls-2" cx="1056.67" cy="233.91" r="8.24"/>
+	<circle class="cls-2" cx="1106.02" cy="91.24" r="14.74"/>
+</svg>

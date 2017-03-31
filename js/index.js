@@ -2,9 +2,9 @@
 // when the user clicks sign up
 // scroll to the form 
 
-$(".sign-up").click(function() {
+$('.sign-up').click(function() {
     $('html,body').animate({
-        scrollTop: $(".enquiry").offset().top},
+        scrollTop: $('.enquiry').offset().top},
         1500);
 });
 
@@ -13,13 +13,13 @@ window.sr = ScrollReveal();
 
 // when scrolling to the numbers section
 // reveal the icons from the top down
-sr.reveal('.numbers-icon', {origin: 'top', duration: 1500, delay:150});
+sr.reveal('.numbers-icon', {origin: 'top', duration: 2000, delay:150});
 // when scrolling to the benefits section
 // reveal the benefits from the bottom up
-sr.reveal('.benefit-block', {origin: 'bottom', duration: 1500, delay: 150} );
-
-
-
+sr.reveal('.benefit-block', {origin: 'bottom', duration: 2000, delay: 150} );
+// when scrolling to the enquiry section
+// reveal the form from the bottom up
+sr.reveal('.form-style', {origin: 'bottom', duration: 2500, delay: 150} );
 
 
 
