@@ -31,12 +31,6 @@ body {
 	color: black; 
 }
 
-/*@media screen and (min-width: 1260px){
-	body {
-		width: 1280px;
-	}
-}
-*/
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
@@ -183,7 +177,7 @@ html {
   }
 
   50% {
-    transform: skewX(1deg);
+    transform: skewX(2.5deg);
   }	
 
   100% {
@@ -213,15 +207,19 @@ html {
 	padding: 40px;
 }
 
+/*.blue-ball {
+	position: relative;
+	bottom:0px;
+	left: 0px;
+	z-index: 0;
+	width: 100%;
+}*/
+
 .screenshots ul {
 	position: relative;
 	padding: 0;
 	margin: 0;
 }
-
-/*.clearfix ul {
-	position: relative;
-}*/
 
 .screenshot-block {
 	position: absolute;
@@ -237,9 +235,12 @@ html {
 .screenshot-block-b {
 	list-style: none;
 	display: block;
-/*	float: right;
-	width: 50%;*/
+/*	float: right;*/
+	width: 100%;
 	padding: 0 1em;
+/*	position: relative;*/
+	bottom:-11px;
+
 }
 
 .screenshot-block h2 {
@@ -378,7 +379,6 @@ button:focus {
     float: left;
 }
 
-
 .signup:hover {
 	background-color: white;
 	color: #2b48ff;
@@ -476,4 +476,29 @@ input:focus {
 .social-icon:hover {
 	opacity: 0.5;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 480px) { 
+
+.container {
+    padding:0;
+    margin:0;
+    }
+
+body {
+	padding:0;
+    }
+
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+   	margin-bottom:0;
+}}
+
 
