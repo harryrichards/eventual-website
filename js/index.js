@@ -7,7 +7,8 @@ $('html,body').animate({scrollTop: $('.enquiry').offset().top}, 1500);});
 
 // when the user is in view of the screenshots section
 // play the video
-$('.screenshots').each(function(){
+$(window).scroll(function() {
+$('video').each(function(){
     if ($('video').is(":in-viewport")) {
         $('video')[0].play();
     } 
@@ -15,6 +16,7 @@ $('.screenshots').each(function(){
         $('video')[0].pause();
     }
 })
+});
 
 
 window.sr = ScrollReveal();

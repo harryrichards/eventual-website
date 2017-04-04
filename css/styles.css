@@ -188,7 +188,6 @@ html {
 
 }
 
-
 .title-text {
 	padding-bottom: 50px;
 	text-align: left;
@@ -393,7 +392,7 @@ button:focus {
 
 footer {
 	background: linear-gradient(to top, #2b48ff, #2b86ff);
-	font-size: 0.5em;
+	font-size: 0.6em;
 	color: white;
 	padding: 15px;
 }
@@ -485,7 +484,7 @@ input:focus {
 /*+++++ MOBILE +++++*/
 
 
-@media (max-width: 480px) { 
+/*@media (max-width: 480px) { 
 
 .container {
     padding:0;
@@ -501,5 +500,5 @@ body {
     margin-right: 0;
    	margin-bottom:0;
 }}
-
+*/
 
