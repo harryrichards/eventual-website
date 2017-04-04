@@ -91,7 +91,7 @@ html {
 
 .message {
 	padding: 100px 100px 300px 100px;
-	background: linear-gradient(to top left, #2b48ff, #2b86ff);
+	background: linear-gradient(to top left, #2b48ff 60%, #2b86ff);
     height: 100vh;
     min-height: 520px;
     position: relative;
@@ -506,7 +506,6 @@ input:focus {
 }
 
 .form-style:hover {
- 	/*animation-iteration-count: 1; */ /*CAN I GET IT TO LOOP ONCE MORE WHILE ON HOVER*/
 	animation-duration: 0s;
 
 }
