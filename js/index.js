@@ -1,8 +1,13 @@
 // when the user clicks sign up
 // scroll to the form 
 $('.sign-up').click(function() {
-$('html,body').animate({scrollTop: $('.enquiry').offset().top}, 1500);});
+$('html,body').animate({scrollTop: $('.enquiry').offset().top}, 2000);});
 
+
+// when the user clicks play button
+// scroll to the screenshots video 
+$('.play-now').click(function() {
+$('html,body').animate({scrollTop: $('.screenshots').offset().top}, 1200);});
 
 
 // when the user is in view of the screenshots section
