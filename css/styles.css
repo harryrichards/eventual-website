@@ -92,8 +92,9 @@ html {
 .message {
 /*	background-color: #2b48ff;*/
 	padding: 130px 100px 300px 100px;
-	background: url(../images/background-blue.svg) no-repeat top center #2b48ff;
-    background-size: cover;
+	background: linear-gradient(to top left, #2b48ff, #2b86ff);
+/*	background: url(../images/background-blue.svg) no-repeat top center #2b48ff;
+    background-size: cover;*/
     height: 100vh;
     min-height: 520px;
     position: relative;
@@ -281,7 +282,7 @@ video {
 }
 
 .numbers-style {
-	background-color: #2b48ff;
+	background: linear-gradient(to top, #2b48ff, #2b86ff);
 	border-radius: 18px;
 }
 
@@ -387,11 +388,11 @@ button:focus {
 
 .social {
 	background-color: white;
-	padding: 50px;;
+	padding: 20px;;
 }
 
 footer {
-	background-color: #2b48ff;
+	background: linear-gradient(to top, #2b48ff, #2b86ff);
 	font-size: 0.5em;
 	color: white;
 	padding: 15px;
@@ -416,7 +417,7 @@ label {
 input {
 	font-family: 'Quicksand', sans-serif;
 	border-radius: 10px;
-	background: #2b48ff;
+	background: transparent;
 	border: 2px dashed white;
 	color: white;
 	text-align: center;
@@ -429,7 +430,7 @@ input:focus {
 }
 
 .form-style {
-	background-color: #2b48ff;
+	background: linear-gradient(to top, #2b48ff, #2b86ff);
 	border-radius: 18px;
 	display: inline-block;
 	padding: 15px 120px 15px 120px;
@@ -469,8 +470,8 @@ input:focus {
 }
 
 .social-icon {
-	margin: 40px;
-	width: 	50px;
+	margin: 30px;
+	width: 	30px;
 }
 
 .social-icon:hover {
@@ -481,7 +482,7 @@ input:focus {
 
 
 
-
+/*+++++ MOBILE +++++*/
 
 
 @media (max-width: 480px) { 
