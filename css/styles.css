@@ -271,14 +271,6 @@ video {
 	padding: 70px 70px 30px 70px;
 }
 
-.bubble-icon1{
-	width: 300px;
-}
-
-.bubble-icon2{
-	width: 300px;
-}
-
 .plus-icon {
 	animation-name: icon-heartbeat;
 	animation-duration: 5s;
@@ -307,12 +299,16 @@ video {
 	margin: 0;
 }
 
-.numbers-block {
+.numbers-block, .bubble-block {
 	list-style: none;
 	display: block;
 	float: left;
 	width: 33.333%;
 	padding: 40px 40px;
+}
+
+.bubble-block img {
+	min-width: 150px;
 }
 
 .number ul {
@@ -388,7 +384,7 @@ button {
 }
 
 button:hover {
-	background-color: #ffe32b;
+	background-color: white;
 	color: #2b48ff;
 	font-style: bold;
 	border: none;
@@ -432,7 +428,7 @@ button:focus {
 
 
 .play-now:hover {
-	background-color: #ffe32b;
+	background-color: white;
 	color: #2b48ff;
 	font-style: bold;
 	border-style: none;
@@ -445,7 +441,7 @@ button:focus {
 }
 
 .sign-up:hover {
-	background-color: #ffe32b;
+	background-color: white;
 	color: #2b48ff;
 	font-style: bold;
 	border-style: none;
@@ -473,7 +469,7 @@ footer {
 
 .fa-heart {
 	font-size: 1.3em;
-	color: #ffe32b;
+	color: #FFF;
 	animation-name: icon-heartbeat;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
