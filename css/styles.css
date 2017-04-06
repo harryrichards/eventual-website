@@ -17,6 +17,10 @@
     clear: both;
 }
 
+.clearfix{
+	padding-left: 0px;
+}
+
 .container {
   margin: 0 auto;
   width: 95%;
@@ -59,13 +63,10 @@ h4 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 	color: #2b48ff; 
-	font-size: 4em;
+	font-size: 2em;
 	margin: 0px;
 	padding: 20px 0px 20px 0px;
-}
-
-h4:first-child {
-	padding-top: 0px;
+	padding-top: 50px;
 }
 
 span {
@@ -80,6 +81,14 @@ h5 {
 	margin: 0px;
 }
 
+h6 {
+	font-size: 4em;
+	z-index: 10;
+	position: absolute;
+	float: middle;
+
+}
+
 /*******************
   GENERAL SETUP
 *******************/
@@ -91,7 +100,7 @@ html {
 
 .message {
 	padding: 100px 100px 300px 100px;
-	background: linear-gradient(to top left, #2b48ff 60%, #2b86ff);
+	background: linear-gradient(to top left, #2b48ff 15%, #2b86ff);
     height: 100vh;
     min-height: 520px;
     position: relative;
@@ -108,7 +117,7 @@ html {
 .intro-img circle {
 	opacity: 0;
 	animation-name: dots, dots-heartbeat; 
-  	animation-duration: 3s, 5s;
+  	animation-duration: 4s, 5s;
   	animation-fill-mode: forwards;
   	animation-iteration-count: 1, infinite;
 }
@@ -155,21 +164,6 @@ html {
 
 @keyframes dots-heartbeat {
 
-/*  0%{
-    transform: scale(0.1);
-  }
-
-  50% {
-    transform: scale(0.2);
-  }	
-
-  100% {
-  	transform: scale(0.1);
-  }*/
-
-
-
-
   0%{
     transform: translateX(-2px);
   }
@@ -201,7 +195,7 @@ html {
 
 .screenshots {
 	background: url(../images/features-background.svg) no-repeat center white;
-	padding: 40px;
+	padding: 40px 40px 70px 40px;
 }
 
 /*.blue-ball {
@@ -271,8 +265,28 @@ video {
 	width: 310px;
 }
 
+
+.plus {
+	padding: 70px 70px 30px 70px;
+}
+
+.bubble-icon1{
+	width: 300px;
+}
+
+.bubble-icon2{
+	width: 300px;
+}
+
+.plus-icon {
+	animation-name: icon-heartbeat;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+
 .numbers {
-	background-image: url("../images/bg-dots.svg");
+	background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%232b48ff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
 	color: white;
 	padding: 70px 70px;
 }
@@ -294,6 +308,7 @@ video {
 
 .numbers-block {
 	list-style: none;
+	display: block;
 	float: left;
 	width: 33.333%;
 	padding: 40px 40px;
@@ -307,13 +322,18 @@ video {
 .numbers-icon {
 	width: 50px;
 	padding-bottom: 10px;
+	padding-top: 25px;
 }
 
 .benefit-block {
 	list-style: none;
+	display: block;
 	float: left;
 	width: 50%;
 	padding: 20px 20px;
+/*	background: linear-gradient(to top, #f6f9fa, #FFF);
+	margin: 20px;
+	border-radius: 20px;*/
 }
 
 .benefit-block h2 {
@@ -367,7 +387,7 @@ button {
 }
 
 button:hover {
-	background-color: white;
+	background-color: #ffe32b;
 	color: #2b48ff;
 	font-style: bold;
 	border: none;
@@ -400,7 +420,6 @@ button:focus {
     border: solid 3px;
     border-radius: 50px;
     color: #FFF;
-/*    padding: 15px 32px;*/
     text-decoration: none;
     font-size: 18px;
     width: 60px;
@@ -412,7 +431,7 @@ button:focus {
 
 
 .play-now:hover {
-	background-color: white;
+	background-color: #ffe32b;
 	color: #2b48ff;
 	font-style: bold;
 	border-style: none;
@@ -425,7 +444,7 @@ button:focus {
 }
 
 .sign-up:hover {
-	background-color: white;
+	background-color: #ffe32b;
 	color: #2b48ff;
 	font-style: bold;
 	border-style: none;
@@ -452,7 +471,8 @@ footer {
 }
 
 .fa-heart {
-	font-size: 1.5em;
+	font-size: 1.3em;
+	color: #ffe32b;
 	animation-name: icon-heartbeat;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
@@ -464,7 +484,7 @@ footer {
 	padding: 70px 0px 70px 0px;
 	width: 100%;
 	background-color: #ffffff;
-	background-image: url("../images/bg-dots.svg");
+	background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%232b48ff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 
@@ -529,16 +549,13 @@ input:focus {
 }
 
 .social-icon {
-	margin: 30px;
-	width: 	30px;
+	margin: 40px;
+	width: 	40px;
 }
 
 .social-icon:hover {
 	opacity: 0.5;
 }
-
-
-
 
 
 /*+++++ MOBILE +++++*/

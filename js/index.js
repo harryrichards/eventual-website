@@ -23,8 +23,19 @@ $('video').each(function(){
 })
 });
 
-
 window.sr = ScrollReveal();
+// when scrolling over the screenshots section
+// reveal the iphone
+sr.reveal('.bubble-icon1', {origin: 'left', duration: 2500, delay:150});
+
+// when scrolling over the screenshots section
+// reveal the iphone
+sr.reveal('.bubble-icon2', {origin: 'right', duration: 2500, delay:150});
+
+// when scrolling over the plus section
+// reveal the plus
+sr.reveal('.plus-icon', {origin: 'top', duration: 2500, delay:150});
+
 // when scrolling over the screenshots section
 // reveal the iphone
 sr.reveal('.phone-box', {origin: 'top', duration: 2500, delay:150});
