@@ -254,9 +254,10 @@ video {
 .phone-video {
 	z-index: 10;
 	position: absolute;
-	top: 68px;
-    left: 17px;
+	top: 49px;
+    left: 19px;
     width: 275px;
+    height: 81%;
 }
 
 .phone-box {
