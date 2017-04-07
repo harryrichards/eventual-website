@@ -2,6 +2,7 @@
 /*******************
   BASE SETUP
 *******************/
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -558,14 +559,13 @@ input:focus {
 	opacity: 0.5;
 }
 
-
 /*+++++ MOBILE +++++*/
 
 
-@media only screen and (min-width: 375px){
+/*@media only screen and (max-width: 450px){*/
 
 
-	.title-text {
+/*	.title-text {
 		margin: 100px 0px 100px 0px;
 		font-size: 2em;
 		padding-bottom: 100px;
@@ -753,4 +753,4 @@ input:focus {
 	line-height: 1em;
 }
 
-}
+}*/
