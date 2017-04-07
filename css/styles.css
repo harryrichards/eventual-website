@@ -235,7 +235,7 @@ html {
 }
 
 .screenshot-block h2 {
-	font-size: 2rem;
+	font-size: 2em;
 	margin: 0.75em 0;
 }
 
@@ -493,6 +493,7 @@ label {
 	display: block;
 	padding: 15px 0px 15px 0px;
 	color: white;
+	font-size: 1em;
 }
 
 input {
@@ -565,10 +566,6 @@ input:focus {
 @media screen and (min-width: 375px){
 
 
-	.message {
-		height: 90vh;
-	}
-
 	.title-text {
 		font-size: 2em;
 		padding-bottom: 100px;
@@ -577,9 +574,10 @@ input:focus {
 	}
 
 	.message-text {
-		font-size: 2em;
+		font-size: 1.2em;
 		width: 100%;
-		line-height: 1.4em;
+		line-height: 3em;
+		margin-bottom: 25px;
 
 
 	}
@@ -681,16 +679,62 @@ input:focus {
 		font-size: 3.5em;
 	}
 
+	h3{
+		font-size: 3em;
+	}
+
+	.benefit-block h2{
+		font-size: 3em;
+	}
 
 
+	.benefit-block{
+		width: 100%;
+	}
+
+	.benefit-icon{
+		width: 250px;
+	}
 
 
+	.enquiry{
+		height: 100%;
+	}
 
+	.form-style{
+		margin: 200px 0px 200px 0px;
+		padding: 100px 0px 100px 0px;
+		height: 90%;
+		width: 80%
+	}
 
+	.form-header {
+		font-size: 3.5em;
+		margin-top: 0px;
+	}
 
+	label {
+		font-size: 1.8em;
+	}
 
+	input {
+	border-radius: 2em;
+	width: 600px;
+	height: 2.2em;
+	margin-bottom: 20px;
+	font-size: 1.8em;
+}
 
+	button {
+    border-radius: 100px;
+    padding: -1px 32px;
+    font-size: 2.3em;
+    width: 360px;
+    height: 120px;
+    position: relative;
+
+}
+	
 
 
 }
-
