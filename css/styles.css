@@ -648,14 +648,15 @@ input:focus {
 	.phone-box{
 
 		width: 92%;
+		padding-bottom: 50px;
 	}
 
 	.phone-video{
 
-		top: 126px;
-    	left: 35px;
-    	width: 92%;
-    	height: 81%;
+		top: 118px;
+    	left: 27px;
+    	width: 94%;
+    	height: 79%;
 	}
 
 
