@@ -2,7 +2,6 @@
 /*******************
   BASE SETUP
 *******************/
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -563,7 +562,7 @@ input:focus {
 /*+++++ MOBILE +++++*/
 
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 400px){
 
 
 	.title-text {
