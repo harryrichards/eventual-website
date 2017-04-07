@@ -659,6 +659,28 @@ input:focus {
     	height: 79%;
 	}
 
+	.numbers-style{
+		margin: 80px 50px 80px 50px;
+		padding: 80px 0px 80px 0px;
+	}
+
+	.numbers-block{
+		width: 100%;
+	}
+
+	p{
+		font-size: 2em;
+	}
+
+	.numbers-icon{
+		width: 120px;
+
+	}
+
+	h5{
+		font-size: 3.5em;
+	}
+
 
 
 
