@@ -563,7 +563,7 @@ input:focus {
 /*+++++ MOBILE +++++*/
 
 
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 375px){
 
 
 	.title-text {
@@ -753,13 +753,5 @@ input:focus {
 	font-size: 2.2em;
 	line-height: 1em;
 }
-
-
-
-
-
-
-
-
 
 }
