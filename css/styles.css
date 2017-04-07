@@ -562,3 +562,55 @@ input:focus {
 /*+++++ MOBILE +++++*/
 
 
+@media screen and (min-width: 375px){
+
+
+	.title-text {
+		font-size: 2em;
+		padding-bottom: 100px;
+		line-height: 3em;
+		
+	}
+
+	.message-text {
+		font-size: 2em;
+		width: 100%;
+		line-height: 1.4em;
+
+
+	}
+
+	.sign-up {
+		font-family: 'Quicksand', sans-serif;
+		background-color: transparent;
+    	border: solid 3px;
+    	border-radius: 150px;
+    	color: #FFF;
+    	padding: 30px 64px;
+    	text-decoration: none;
+    	font-size: 2.5em;
+    	width: 80%;
+    	height: 3.5em;
+    	margin: 0px;
+    	margin-top: 80px;
+    	margin-bottom: 100px;
+
+
+	}
+
+	.play-now {
+		font-family: 'Quicksand', sans-serif;
+		background-color: transparent;
+    	border: solid 3px;
+    	border-radius: 150px;
+    	color: #FFF;
+    	text-decoration: none;
+    	font-size: 2.5em;
+    	width: 80%;
+    	height: 3.5em;
+    	margin: 0px;
+}
+
+
+}
+
