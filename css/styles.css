@@ -566,7 +566,7 @@ input:focus {
 
 
 	.message {
-		height: 95vh;
+		height: 90vh;
 	}
 
 	.title-text {
@@ -618,5 +618,56 @@ input:focus {
 	button:hover {
 
 	}
+
+	.plus {
+		height: 100vh;
+	}
+
+	h4 {
+		font-size: 2.2em;
+		line-height: 1.4em;
+		padding-bottom: 50px;
+	}
+
+	.bubble-block{
+
+		width: 100%;
+		display: inline;
+		float: middle;
+	}
+
+	.bubble-res{
+
+		width: 50%;
+	}
+
+	.screenshots{
+		height: 100vh;
+	}
+
+	.phone-box{
+
+		width: 98%;
+	}
+
+	.phone-video{
+
+		top: 126px;
+    	left: 36px;
+    	width: 92%;
+    	height: 81%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
