@@ -574,7 +574,8 @@ input:focus {
 
 	.message {
 
-		padding-left: 65px;
+		padding-left: 55px;
+		padding-top: 35px;
 	}
 
 
@@ -627,7 +628,7 @@ input:focus {
 	}*/
 
 	h4 {
-		font-size: 1.5em;
+		font-size: 1.4em;
 		line-height: 1.4em;
 		padding-bottom: 20px;
 		padding-top: 0px;
@@ -639,7 +640,7 @@ input:focus {
 		display: inline;
 		float: middle;
 		padding-top: 0px;
-		padding-bottom: 0px;
+		padding: 0px;
 	}
 
 	.bubble-res{
@@ -715,9 +716,9 @@ input:focus {
 	}
 
 	.form-style{
-		margin: 200px 0px 200px 0px;
-		padding: 100px 0px 100px 0px;
-		height: 90%;
+/*		margin: 200px 0px 200px 0px;*/
+		padding: 50px 0px 50px 0px;
+/*		height: 90%;*/
 		width: 80%
 	}
 
