@@ -256,8 +256,8 @@ video {
 	position: absolute;
 /*	border: 1px solid white;*/
 	top: 49px;
-    left: 17px;
-    width: 277px;
+    left: 19px;
+    width: 275px;
     height: 81%;
 }
 
@@ -668,6 +668,7 @@ input:focus {
 .phone-video {
 	z-index: 10;
 	position: absolute;
+	overflow: hidden;
 	top: 49px;
     left: 19px;
     width: 275px;
