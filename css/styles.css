@@ -668,7 +668,7 @@ input:focus {
 .phone-video {
 	z-index: 10;
 	position: absolute;
-	overflow: hidden;
+	border: solid 2px transparent;
 	top: 49px;
     left: 19px;
     width: 275px;
