@@ -649,15 +649,15 @@ input:focus {
 	}
 
 	.screenshots{
-		height: 100vh;
+/*		height: 100vh;*/
 		padding: 0px;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 
 	}
 
 .phone-icon {
-	width: 100%;
+	width: 95%;
 }
 
 
