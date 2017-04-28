@@ -574,17 +574,19 @@ input:focus {
 
 	.message {
 
-		padding-left: 55px;
-		padding-top: 35px;
+		padding-left: 70px;
+		padding-top: 65px;
 	}
-
 
 	.message-text {
 		font-size: 1em;
 		width: 100%;
 		line-height: 1.5em;
 		margin-bottom: 25px;
+	}
 
+	.intro-img {
+		display: none;
 
 	}
 
