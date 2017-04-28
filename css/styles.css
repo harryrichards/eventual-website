@@ -254,6 +254,7 @@ video {
 .phone-video {
 	z-index: 10;
 	position: absolute;
+	border: none;
 	top: 49px;
     left: 19px;
     width: 275px;
