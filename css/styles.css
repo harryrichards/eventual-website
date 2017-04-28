@@ -569,12 +569,12 @@ input:focus {
 		margin: 20px 0px 20px 0px;
 		font-size: 0.75em;
 		padding-bottom: 20px;
-		line-height: 2em;
+		line-height: 1em;
 	}
 
 	.message {
 
-		padding-left: 70px;
+		padding-left: 50px;
 		padding-top: 65px;
 	}
 
@@ -600,10 +600,10 @@ input:focus {
 /*    	padding: 15px 32px;*/
     	text-decoration: none;
     	font-size: 0.8em;
-    	width: 60%;
+    	width: 65%;
 /*    	height: 1em;
     	margin: 0px;*/
-/*    	margin-top: 100px;*/
+		margin-bottom: 30px;
 
 
 	}
@@ -616,10 +616,10 @@ input:focus {
     	color: #FFF;
     	text-decoration: none;
     	font-size: 0.8em;
-    	width: 27%;
-/*    	height: 3em;
-    	margin-left: 50px;
-    	margin-top: 100px;*/
+    	width: 29%;
+/*    	height: 3em;*/
+    	margin-left: 10px;
+/*    	margin-top: 100px;*/
 	}
 
 	button:hover {
@@ -728,7 +728,7 @@ input:focus {
 
 	.form-style{
 /*		margin: 200px 0px 200px 0px;*/
-		padding: 50px 0px 50px 0px;
+		padding: 40px 0px 0px 0px;
 /*		height: 90%;*/
 		width: 80%;
 		animation-duration: 0s;
